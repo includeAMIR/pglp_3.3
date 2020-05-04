@@ -7,8 +7,20 @@ public class RobotType2 extends Robot {
 		// TODO Auto-generated constructor stub
 	}
 	@Override
-	public void avancer(Direction dir) {
-		
-		
+	public void avancer() {
+		switch (this.dir) {
+		case NORD : 
+			this.pos.setY(this.pos.getY() + 10);
+			break;
+		case EST :
+			this.pos.setX(this.pos.getX() + 10);
+			break;
+		case SUD :
+			this.pos.setY(this.pos.getY() - 10);
+			break;
+		case OUEST :
+			this.pos.setX(this.pos.getX() - 10);
+			break;
+		}
 	}
 }

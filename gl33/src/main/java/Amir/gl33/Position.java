@@ -1,7 +1,8 @@
 package Amir.gl33;
 
 public class Position {
-	private int x,y;
+	private int x;
+	int y;
 	Position(int x, int y){
 		this.setX(x);
 		this.y = y;

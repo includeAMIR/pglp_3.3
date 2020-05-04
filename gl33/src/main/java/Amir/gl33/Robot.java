@@ -7,7 +7,7 @@ public abstract class Robot {
 		this.pos = new Position(x, y);
 		this.dir = dir;
 	}
-	public abstract void avancer(Direction dir);
+	public abstract void avancer();
 	public void tourne() {
 		switch(this.dir) {
 			case NORD : 
@@ -25,5 +25,11 @@ public abstract class Robot {
 	}
 	public Position getPos() {
 		return this.pos;
+	}
+	public Direction getDir() {
+		return dir;
+	}
+	public void PrintPos() {
+		System.out.println("coordonnées du robot :"+"(" + this.pos.getX() + "," + this.pos.getY() + ")");
 	}
 }

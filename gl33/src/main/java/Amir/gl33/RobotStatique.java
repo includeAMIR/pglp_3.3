@@ -7,7 +7,7 @@ public class RobotStatique extends Robot {
 	}
 
 	@Override
-	public void avancer(Direction dir) {
-		throw new UnsupportedOperationException();
+	public void avancer() {
+		System.out.println("l'unité est immobilisée");
 	}
 }
