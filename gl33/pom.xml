@@ -55,7 +55,7 @@
                      <manifest>
                         <addClasspath>true</addClasspath>
                         <classpathPrefix>lib/</classpathPrefix>
-                        <mainClass>Amir/gl32/App</mainClass>
+                        <mainClass>Amir/gl33/App</mainClass>
                      </manifest>
                   </archive>
                </configuration>
